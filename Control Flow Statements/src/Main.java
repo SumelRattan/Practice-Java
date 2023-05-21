@@ -27,8 +27,34 @@ public class Main {
 
         System.out.println(PlayingCat.isCatPlaying(false, 35));
 */
+/*
 
        String Quarter =  SwitchStatements.getQuarter("January");
         System.out.println(Quarter);
+*/
+/*
+        System.out.println(SwitchStatements.getNATO('F'));
+        SwitchStatements.printDayOfWeek(4);
+        String numberInWord = SwitchStatements.printNumberInWord(6);
+        System.out.println(numberInWord);
+        */
+/*
+        Integer year = 2017;
+        boolean checkLeapYear = NumberOfDaysInMonth.isLeapYear(year);
+        System.out.println(checkLeapYear);
+*/
+       /* Integer daysInMonth = NumberOfDaysInMonth.getDaysinMonth(1, -2020);
+        System.out.println(daysInMonth);
+       */
+            int count = 0;
+            for (int i = 0; i<= 1000; i++){
+                if(ForLoop.isPrime(i) == true){
+                    System.out.println(i);
+                    count++;
+                }
+                if(count == 3){
+                    break;
+                }
+            }
+        }
     }
-}
