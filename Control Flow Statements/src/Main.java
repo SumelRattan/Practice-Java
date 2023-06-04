@@ -46,7 +46,7 @@ public class Main {
        /* Integer daysInMonth = NumberOfDaysInMonth.getDaysinMonth(1, -2020);
         System.out.println(daysInMonth);
        */
-            int count = 0;
+         /*   int count = 0;
             for (int i = 0; i<= 1000; i++){
                 if(ForLoop.isPrime(i) == true){
                     System.out.println(i);
@@ -55,6 +55,34 @@ public class Main {
                 if(count == 3){
                     break;
                 }
+            }*/
+        ///Sum 3 and 5 challenge
+    /*    int countOfMathches = 0;
+        int sumOfMatches = 0;
+        for (int i = 1; i <= 1000; i++) {
+            if (i % 3 == 0 && i % 5 == 0) {
+                countOfMathches++;
+                sumOfMatches += i;
+            }
+            if (countOfMathches == 5) {
+                break;
             }
         }
+            System.out.println(sumOfMatches);
+    */
+
+      //  System.out.println(sumOddRange.sumOdd(10, 5));
+       // whileLoop.evenInRange(4,20);
+        //System.out.println(whileLoop.sumDigits(1234));
+        //System.out.println(whileLoop.isPalindrome(707));
+        //System.out.println(whileLoop.sumFirstAndLastDigit(-5));
+       // System.out.println(whileLoop.getEvenDigitSum(-22));
+        // System.out.println(whileLoop.hasSharedDigit(99,9));
+        //System.out.println(whileLoop.hasSameLastDigit(9, 99, 999));
+        //whileLoop.printFactors(-1);
+        //System.out.println(whileLoop.getGreatestCommonDivisor(81,153));
+        System.out.println(whileLoop.isPerfectNumber(-1));
     }
+}
+
+
